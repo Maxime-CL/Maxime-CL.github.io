@@ -1,0 +1,71 @@
+body
+{
+	font-family: Calibri;
+}
+header nav{
+	width:100%;
+	background-color: #424558;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+header nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header nav ul li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #424558;
+
+}
+
+header nav ul li a{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background-color: blue;
+	opacity: 0.5;
+}
+
+header nav ul li ul li{
+	display: none;
+}
+
+header nav ul li:hover ul li{
+	display: block;
+}
+
+.logo{
+	margin: 0;
+	font-size: inherit;
+	line-height: inherit;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.Descriptif{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+

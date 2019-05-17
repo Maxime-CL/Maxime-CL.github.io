@@ -1,0 +1,114 @@
+body
+{
+	font-family: 'Source code pro' ,Calibri, serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul
+{
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+nav > ul > li
+{
+	float: left;
+	position: 20px;
+}
+
+nav > ul > li > a
+{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li
+{
+	list-style-type: none;	
+	text-align: center;
+}
+
+.sousmenu
+{
+	display: none;
+}
+
+nav{
+	width:100%;
+	background-color: #424558;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .sousmenu{
+
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.sousmenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.sousmenu li a{
+	padding: 15px 30px;
+	font-size: 12px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-accueil:hover{
+	border-top: 5px solid #e44d26
+	background-color: rgb(228, 77, 38, 0.15);
+}
+
+.menu-motos:hover{
+	border-top: 5px solid #0070bb
+	background-color: rgb(000, 112, 192, 0.15);
+}
+
+.menu-voitures:hover{
+	border-top: 5px solid #f1dc4f
+	background-color: rgb(241, 211, 79, 0.15);
+}
+
+.menu-autres:hover{
+	border-top: 5px solid #BBB
+	background-color: rgb(220, 220, 220, 0.15);
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
