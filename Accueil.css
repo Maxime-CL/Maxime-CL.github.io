@@ -163,9 +163,37 @@ div#accueil-image h1 {
 	order: 3;
 	width: 100%;
 	height: 60px;
-	background-color: grey;
+	display: flex;
+	border: 1px outset #424558;
 }
 
+.foot_gauche{
+	height: 150px;
+	width: 20%;
+	background-color: white;
+}
+
+.logoisty{
+	height: 150px;
+	width: 70%;
+	margin-left: 45px;
+}
+
+.infosfooter{
+	height: 150px;
+	width: 60%;
+	background-color: #424558;
+}
+
+.foot_droit{
+	height: 150px;
+	width: 20%;
+	background-color: white;
+}
+
+.logo_footer{
+	margin-left: 60px;
+}
 
 .photos {
 	height: 230px;
@@ -217,7 +245,7 @@ div#accueil-image h1 {
 .couleurpossible{
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 0.65em;
-	font-style: italic;
+
 }
 
 .constructeur{
